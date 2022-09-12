@@ -39,7 +39,7 @@ import javafx.scene.image.ImageView;
 
 public class Bat extends Parent {
 
-    public static final int DEFAULT_SIZE = 2;
+    public static final int DEFAULT_SIZE = 1;
 
     public static final int MAX_SIZE = 7;
 

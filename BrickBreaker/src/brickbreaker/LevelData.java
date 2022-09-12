@@ -40,10 +40,10 @@ public class LevelData {
     private static final String NEXT_LEVEL = "---";
 
     private static final String[] LEVELS_DATA = new String[] {
+        "L LLLL LLLL LLL",
         "",
         "",
-        "",
-        "",
+        "RRR B B B RRR R",
         "WWWWWWWWWWWWWWW",
         "WYYWYYWYWYYWYYW",
         "WWWWWWWWWWWWWWW",

@@ -57,7 +57,7 @@ public final class Config {
     public static final int SHADOW_WIDTH = 10;
     public static final int SHADOW_HEIGHT = 16;
 
-    public static final double BALL_MIN_SPEED = 6;
+    public static final double BALL_MIN_SPEED = 9;
     public static final double BALL_MAX_SPEED = BRICK_HEIGHT;
     public static final double BALL_MIN_COORD_SPEED = 2;
     public static final double BALL_SPEED_INC = 0.5f;

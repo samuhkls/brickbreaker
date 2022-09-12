@@ -36,9 +36,9 @@ import javafx.scene.image.ImageView;
 
 public class Ball extends Parent {
     
-    public static final int DEFAULT_SIZE = 2;
+    public static final int DEFAULT_SIZE = 1;
     
-    public static final int MAX_SIZE = 5;
+    public static final int MAX_SIZE = 3;
 
     private int size;
 
