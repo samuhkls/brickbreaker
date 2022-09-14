@@ -50,15 +50,15 @@ public class Bonus extends Parent {
     public static final int COUNT = 9;
 
     public static final String[] NAMES = new String[] {
-        "SLOW",
-        "FAST",
-        "CATCH",
-        "GROW BAT",
-        "REDUCE BAT",
-        "GROW BALL",
-        "REDUCE BALL",
-        "STRIKE",
-        "LIFE",
+        "LENTO",
+        "VELOZ",
+        "GRUDAR",
+        "AUMENTAR TAB",
+        "REDUCE TAB",
+        "AUMENTAR BOLA",
+        "REDUZIR BOLA",
+        "ATINGIR",
+        "VIDA",
     };
 
     private int type;

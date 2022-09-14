@@ -506,7 +506,7 @@ public class Level extends Parent {
         round.setFont(f);
         round.setFill(Color.rgb(0, 204, 102));
         scoreCaption = new Text();
-        scoreCaption.setText("SCORE");
+        scoreCaption.setText("PONTOS");
         scoreCaption.setFill(Color.rgb(51, 102, 51));
         scoreCaption.setTranslateX(30);
         scoreCaption.setTranslateY(164);
@@ -521,7 +521,7 @@ public class Level extends Parent {
         score.setFont(f);
         score.setText("");
         livesCaption = new Text();
-        livesCaption.setText("LIFE");
+        livesCaption.setText("VIDAS");
         livesCaption.setTranslateX(30);
         livesCaption.setTranslateY(200);
         livesCaption.setFill(Color.rgb(51, 102, 51));
@@ -543,7 +543,7 @@ public class Level extends Parent {
         Text legend = new Text();
         legend.setTranslateX(30);
         legend.setTranslateY(310);
-        legend.setText("LEGEND");
+        legend.setText("PODERES");
         legend.setFill(INFO_LEGEND_COLOR);
         legend.setTextOrigin(VPos.TOP);
         legend.setFont(new Font("Impact", 18));
@@ -638,10 +638,10 @@ public class Level extends Parent {
                     lostLife();
                     return;
                 }
-                if ((ke.getCode() == KeyCode.LEFT || ke.getCode() == KeyCode.TRACK_PREV)) {
+                if ((ke.getCode() == KeyCode.LEFT || ke.getCode() == KeyCode.TRACK_PREV || ke.getCode() == KeyCode.A)) {
                     batDirection = - Config.BAT_SPEED;
                 }
-                if ((ke.getCode() == KeyCode.RIGHT || ke.getCode() == KeyCode.TRACK_NEXT)) {
+                if ((ke.getCode() == KeyCode.RIGHT || ke.getCode() == KeyCode.TRACK_NEXT || ke.getCode() == KeyCode.D)) {
                     batDirection = Config.BAT_SPEED;
                 }
             }
@@ -649,7 +649,8 @@ public class Level extends Parent {
         background.setOnKeyReleased(new EventHandler<KeyEvent>() {
             public void handle(KeyEvent ke) {
                 if (ke.getCode() == KeyCode.LEFT || ke.getCode() == KeyCode.RIGHT ||
-                    ke.getCode() == KeyCode.TRACK_PREV || ke.getCode() == KeyCode.TRACK_NEXT) {
+                    ke.getCode() == KeyCode.TRACK_PREV || ke.getCode() == KeyCode.TRACK_NEXT ||
+                    ke.getCode() == KeyCode.A || ke.getCode() == KeyCode.D) {
                     batDirection = 0;
                 }
             }
