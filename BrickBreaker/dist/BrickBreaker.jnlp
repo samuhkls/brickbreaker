@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="BrickBreaker.jar" size="711915" download="eager" />
+    <jar href="BrickBreaker.jar" size="1236875" download="eager" />
   </resources>
   <applet-desc  width="950" height="700" main-class="com.javafx.main.NoJavaFXFallback"  name="BrickBreaker" >
     <param name="requiredFXVersion" value="8.0+"/>
